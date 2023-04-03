@@ -1,0 +1,190 @@
+
+.orgbtn {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size:0.90rem;
+    min-height:1px;
+}
+
+.form-group{
+    margin-bottom: 35px;
+}
+
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.label-danger {
+    background-color: #d9534f;
+}
+
+.label-success {
+    background-color: #5cb85c;
+}
+
+input:required{
+    background: #ffcdd2;
+}
+
+.original-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: #070707;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.25);
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 1);
+    background-image: repeating-linear-gradient(180deg, rgba(252, 252, 252, 0.63), rgba(193, 175, 247, 0.63) 30%, rgba(134, 97, 241, 0.63) 70%, rgba(83, 31, 236, 0.63));
+}
+
+.original-button:hover {
+    box-shadow: 0 0 rgba(0, 0, 0, 0);
+}
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    margin: 0px;
+    overflow: hidden;
+    touch-action: manipulation;
+}
+
+ .container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    flex: 1;
+    /* height: 70vh; */
+    overflow: scroll;
+}
+
+.btn_main_allergen {
+    display: inline-block;
+    /* padding: 10px 20px; */
+    min-width: 90px;
+    min-height: 40px;
+    min-height: 1px;
+    height: 40px;
+    text-decoration: none;
+    background-color: white;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border-top: solid 1px #627295;
+    border-bottom: solid 4px #627295;
+    border-left: solid 1px #627295;
+    border-right: solid 1px #627295;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn_main_allergen_active {
+    display: inline-block;
+    min-width: 90px;
+    min-height: 40px;
+    min-height: 1px;
+    height: 40px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    background-color: #cffcba;
+    background-color: lightpink;
+    color: #000000;
+    border-top: solid 1px #627295;
+    border-bottom: solid 1px #627295;
+    border-left: solid 1px #627295;
+    border-right: solid 1px #627295;
+    border-radius: 10px;
+
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+
+    text-align: center;
+
+    /* border-bottom: none; */
+    /* border-bottom: solid 1px #627295; */
+    /* background-color: #f1e979; */
+}
+
+
+.btn_semi_allergen {
+    display: inline-block;
+    /* padding: 10px 20px; */
+    min-width: 90px;
+    min-height: 40px;
+    min-height: 1px;
+    height: 40px;
+    /* font-size: ; */
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border-top: solid 1px #627295;
+    border-bottom: solid 4px #627295;
+    border-left: solid 1px #627295;
+    border-right: solid 1px #627295;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* .btn_semi_allergen:active {
+-webkit-transform: translateY(4px);
+transform: translateY(4px);
+border-bottom: none;
+border-bottom: solid 1px #627295;
+background-color: #f1e979;
+background-color: #cffcba;
+} */
+
+.btn_semi_allergen_active {
+    display: inline-block;
+    min-width: 90px;
+    min-height: 40px;
+    min-height: 1px;
+    height: 40px;
+    padding-bottom: 4px;
+    /* padding: 10px 20px; */
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    background-color: palegoldenrod;
+    color: #000000;
+    border-top: solid 1px #627295;
+    border-bottom: solid 1px #627295;
+    border-left: solid 1px #627295;
+    border-right: solid 1px #627295;
+    border-radius: 10px;
+
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+
+    text-align: center;
+
+    /* border-bottom: none; */
+    /* border-bottom: solid 1px #627295; */
+    /* background-color: #f1e979; */
+}
+
+textarea {
+    resize: none;
+    width:300px;
+    height:60px;
+    /* min-width:100%; */
+}
+
+
