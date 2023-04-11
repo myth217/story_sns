@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Auth;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,3 +23,7 @@ Route::get('/', function () {
 Route::get('test', function () {
     return view('test');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
