@@ -32,7 +32,7 @@ Auth::routes();
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 
-// ログインしている場合のみ以下のルートを許可する
+// ログインしている場合のroute
 Route::group(['middleware' => 'auth'], function() {
     Route::get('/users', [UserController::class, 'index']) -> name('users.index');
 });
