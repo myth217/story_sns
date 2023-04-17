@@ -4,7 +4,7 @@
 <div class="p-user-index">
   <div class="tphoto">
     <img src="" title="tphoto" alt="Tinder Photo" />
-    <div class="tname"></div>
+    <div class="tname">{{$user->name}}</div>
   </div>
 
   <div class="tcontrols">

@@ -12,6 +12,8 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
+    <!-- <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"> -->
+
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
@@ -27,14 +29,15 @@
                         <ul class="navbar-nav mr-auto">
                             @auth
                                 <li class="nav-item dropdown">
-                                    <a id="navbarDropdown" class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                        <i class="fa fa-cog" aria-hidden="true"></i>
+                                    <a id="navbarDropdown" class="nav-link" href="/" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                        <!-- <i class="fa fa-cog" aria-hidden="true"></i> -->
+                                        <i class="fa-solid fa-gear"aria-hidden="true"></i>
                                     </a>
 
                                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="{{ route('logout') }}"
-                                           onclick="event.preventDefault();
-                                                         document.getElementById('logout-form').submit();">
+                                        onclick="event.preventDefault();
+                                            document.getElementById('logout-form').submit();">
                                             {{ __('Logout') }}
                                         </a>
 
