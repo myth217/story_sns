@@ -30,8 +30,8 @@
                             @auth
                                 <li class="nav-item dropdown">
                                     <a id="navbarDropdown" class="nav-link" href="/" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                        <!-- <i class="fa fa-cog" aria-hidden="true"></i> -->
-                                        <i class="fa-solid fa-gear"aria-hidden="true"></i>
+                                        <i class="fa fa-cog" aria-hidden="true"></i>
+                                        <!-- <i class="fa-solid fa-gear"aria-hidden="true"></i> -->
                                     </a>
 
                                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
@@ -52,7 +52,8 @@
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item">
                                 <a class="navbar-brand" href="{{ url('/users') }}">
-                                    <img src="https://worldvectorlogo.com/logos/tinder-1.svg" alt="Tinder Logo" title="Tinder Logo" style="width: 100px">
+                                    <!-- <img src="https://worldvectorlogo.com/logos/tinder-1.svg" alt="Tinder Logo" title="Tinder Logo" style="width: 100px"> -->
+                                    Logo
                                 </a>
                             </li>
                         </ul>

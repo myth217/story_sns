@@ -34,5 +34,6 @@ Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('ho
 
 // ログインしている場合のroute
 Route::group(['middleware' => 'auth'], function() {
+    // /usersに接続し、UserControllerのindexを呼び出す  　　　　name() でルート名を設定
     Route::get('/users', [UserController::class, 'index']) -> name('users.index');
 });
