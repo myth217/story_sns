@@ -15,4 +15,9 @@ class UserController extends Controller
             'user' => $user
         ]);
     }
+
+    // public function getLogout(){
+    //     Auth::logout();
+    //     return redirect()->route('user.signin');
+    //     }
 }

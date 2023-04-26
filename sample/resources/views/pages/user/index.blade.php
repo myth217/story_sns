@@ -1,17 +1,29 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="p-user-index">
-<div class="tname">フレンドのお気に入り曲をランダムに出したい</div>
-<div class="tname">{{$user->name}}さんのお気に入り</div>
 
+<div class="p-user-index">
+
+
+  <!-- 自身、フレンドもしくは、フレンドのフレンドあたりまでの気に入ってる曲をランダムに再生させたい -->
   <div class="tphoto">
     <!-- <img src="" title="tphoto" alt="Tinder Photo" /> -->
     <div><audio src=""></audio></div>
-    <p>ここは曲を表示</p>
-    <p>問題はどんな曲を何を基準に表示するか?</p>
     <audio controls autoplay muted src="water.mp3" type="audio/mp3">水が流れる音</audio>
   </div>
+
+
+  
+
+    <!-- 誰の気に入っている曲なのかを表示し、
+    その人物の概要に繋がる、もしくはチャットできるようにしたい
+    -->
+    <div class="popup_baner">
+        <div class="_sumb">サムネ</div>
+        <div class="_sumb">{{$user->name}}さんのfavorite song</div>
+    </div>
+
+
 
   <div class="tcontrols">
     <div class="container">
@@ -35,4 +47,6 @@
     </div>
   </div>
 </div>
+
+
 @endsection
